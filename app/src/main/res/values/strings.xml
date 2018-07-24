@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Create Name List</string>
+    <string name="welcome">Welcome to attendance app </string>
+    <string name="new_class">Create New Class</string>
+    <string name="next_button">Next</string>
+    <string name="next">Next</string>
+    <string name="empty_input">Input Field is empty</string>
+    <string name="last_page">This is the last page</string>
+    <string name="class_name">Enter class name:</string>
+    <string name="student_name_input">Enter student name </string>
+    <string name="save_toast">Saved</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
+
