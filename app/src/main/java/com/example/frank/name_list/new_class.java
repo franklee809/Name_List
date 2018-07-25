@@ -99,14 +99,15 @@ public class new_class extends AppCompatActivity{
                     Toast.makeText(new_class.this, R.string.last_page,
                             Toast.LENGTH_SHORT).show();
                 }
-                else if (mstudent_name == null|| mstudent_name.trim().equals("")) {
-                    Toast.makeText(new_class.this, "Student Name is empty",
-                            Toast.LENGTH_SHORT).show();
-                }
                 else if (mclass_name == null || mclass_name.trim().equals("")){
                     Toast.makeText(new_class.this, "Student Name is empty",
                             Toast.LENGTH_SHORT).show();
                 }
+                else if (mstudent_name == null|| mstudent_name.trim().equals("")) {
+                    Toast.makeText(new_class.this, "Student Name is empty",
+                            Toast.LENGTH_SHORT).show();
+                }
+
 
                 updatetitle();
             }
