@@ -92,11 +92,19 @@ public class new_class extends AppCompatActivity{
             @Override
             public void onClick(View v) {
                 editClass.setText(""); // clear text
-                if (Index < 1) { // class name array should not be empty
+                if (Index < 1 && mclass_name != null) { // class name array should not be empty
                     Index = (Index + 1) % mclass_info.length;
                 }
                 else if (Index>=1){
                     Toast.makeText(new_class.this, R.string.last_page,
+                            Toast.LENGTH_SHORT).show();
+                }
+                else if (mstudent_name == null|| mstudent_name.trim().equals("")) {
+                    Toast.makeText(new_class.this, "Student Name is empty",
+                            Toast.LENGTH_SHORT).show();
+                }
+                else if (mclass_name == null || mclass_name.trim().equals("")){
+                    Toast.makeText(new_class.this, "Student Name is empty",
                             Toast.LENGTH_SHORT).show();
                 }
 
